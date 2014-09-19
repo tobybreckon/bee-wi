@@ -13,17 +13,17 @@
 
 *** About ***
 
-The SDK was developed to provide a method to control the BeeWi Scara Bee Camera Buggy via a TCP connection, allowing realtime automation and video transfer.
+The SDK was developed to provide a platfrom to communicate with the BeeWi Scara Bee Camera Buggy via a TCP connection, allowing realtime automation and video transfer.
 
 *** Provided Files ***
 
 In order to run the SDK python must have the following libraries installed:
 
-- OpenCV 2.1 (or later)
 - numpy (1.9 or later)
 - scipy (0.14 or later)
+- OpenCV 2.1 (or later)
 
-All of the above have been included in the Libraries folder
+Installation how-to is provided in the documentation.
 
 The SDK is provided as two python source files as follows:
 
@@ -42,7 +42,7 @@ A template program is available as follows:
 
 - TEMPLATE.py
 
-Images of arrows to use with pathFollower.py have been included in the Arrows folder.
+Images of arrows to use with pathFollower.py have been included in the documentation folder under the subdirectory symbols.
 
 *** Contact ***
 
@@ -50,5 +50,6 @@ For further information or inquiries, please contact Joey Green at:
 
 - joseph.green@durham.ac.uk
 
-Video overview: 
+*** Video overview ***
+
 https://www.youtube.com/watch?v=IKUlAkl-0oc

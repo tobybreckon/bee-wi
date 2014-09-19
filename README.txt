@@ -32,17 +32,19 @@ The SDK is provided as two python source files as follows:
 
 The library is documented as follows:
 
-- BeeWi Camera Buggy SDK Documentation (.doc, .pdf and .html)
+- doc\documentation.pdf
 
 Exercises using the SDK are provided as follows:
 
-- Exercises for the BeeWi Camera Buggy SDK.pdf
+- doc\exercises.pdf
 
 A template program is available as follows:
 
 - TEMPLATE.py
 
-Images of arrows to use with pathFollower.py have been included in the documentation folder under the subdirectory symbols.
+Images of arrows to use with pathFollower.py have been included in the directory as follows:
+
+- doc\symbols\
 
 *** Contact ***
 

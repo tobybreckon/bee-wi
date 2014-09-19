@@ -1,0 +1,7 @@
+# Copyright (c) 2014
+# Joey Green, School of Engineering and Computer Sciences, Durham University, UK
+
+# All versions of this software (both binary and source) must retain
+# and display this copyright notice.
+
+# License : GPL - http://www.gnu.org/copyleft/gpl.html

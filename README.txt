@@ -39,3 +39,6 @@ A template program is available as follows:
 For further information or inquiries, please contact Joey Green at:
 
 - joseph.green@durham.ac.uk
+
+Video overview: 
+https://www.youtube.com/watch?v=IKUlAkl-0oc

@@ -16,14 +16,15 @@
 #
 # ***************************************************************
 
+import sys
 import cv2
 import cv2.cv as cv
 import time
 import numpy as np
 from matplotlib import pyplot as plt
-from buggy import Buggy
 from scipy import ndimage
-import sys
+sys.path.append('../sdk')
+from buggy import Buggy
 
 # ********************** VARIABLES **********************
 #
@@ -31,8 +32,8 @@ import sys
 #
 
 # Set up signs for template matching
-SIGN_FORWARD = ndimage.median_filter(cv2.imread('C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\Template_Matching\\Arrows\\Up_and_Down\\up.png', 0), 5)
-SIGN_BACKWARD = ndimage.median_filter(cv2.imread('C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\Template_Matching\\Arrows\\Up_and_Down\\down.png', 0), 5)
+SIGN_FORWARD = ndimage.median_filter(cv2.imread('..\\doc\\symbols\\Up_and_Down\\up.png', 0), 5)
+SIGN_BACKWARD = ndimage.median_filter(cv2.imread('..\\doc\\symbols\\Up_and_Down\\down.png', 0), 5)
 
 BINARY_THRESHOLD = 120 # This is the threshold for the Binary Threshing within the cropped image of the sign
 

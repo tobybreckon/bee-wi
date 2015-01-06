@@ -16,14 +16,14 @@
 #
 # ***************************************************************
 
-
+import sys
 import cv2
 import cv2.cv as cv
 import time
 import numpy as np
 from matplotlib import pyplot as plt
+sys.path.append('../sdk')
 from buggy import Buggy
-import sys
 
 # ********************** VARIABLES **********************
 #
@@ -35,7 +35,7 @@ DISPLAY = True # Whether you want to display what the Buggy sees
 IMAGES_TO_SAVE = 5 # How many images to save
 
 # Location to save images. E.g. '\\Users\\ImageDump\\Directory\\'
-SAVE_LOCATION = 'C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\Video Feed\\dump\\'
+SAVE_LOCATION = '..\\doc\\dump\\'
 
 WAIT_INTERVALS = 0.5 # Interval to wait (in seconds) between each picture taken
 

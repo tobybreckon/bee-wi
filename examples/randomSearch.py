@@ -16,13 +16,15 @@
 #
 # ***************************************************************
 
+import sys
 import cv2
 import cv2.cv as cv
 import time
 import numpy as np
 from matplotlib import pyplot as plt
 from buggy import Buggy
-import sys
+sys.path.append('../sdk')
+from buggy import Buggy
 
 # ********************** VARIABLES **********************
 #
@@ -32,7 +34,7 @@ import sys
 DISPLAY = True # Whether you want to display what the Buggy sees
 
 # The path to the image which the buggy will look for, e.g. 'C:\\Users\\User\\Images\\Goal_Image.png'
-PATH_GOAL_IMAGE = 'C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\Template_Matching\\Photoshop\\Old\\Up_old.png'
+PATH_GOAL_IMAGE = '..\\doc\\symbols\\cross_simple.png'
 
 GOAL_THRESHOLD = 0.7 # The threshold to use when matching the goal image - lower it is, the easier to find, but easier to make mistakes
 

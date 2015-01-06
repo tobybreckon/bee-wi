@@ -10,13 +10,14 @@
 #
 # ***************************************************************
 
+import sys
 import cv2
 import cv2.cv as cv
 import time
 import numpy as np
 from matplotlib import pyplot as plt
+sys.path.append('../sdk')
 from buggy import Buggy
-import sys
 
 # ********************** VARIABLES **********************
 #

@@ -27,12 +27,6 @@ import cv2
 import cv2.cv as cv
 import numpy as np
 
-# Running the Buggy from IDLE
-if __name__ == '__main__':
-
-    # Instantiate buggy
-    buggy = Buggy()
-
 # *********************** BUGGY CLASS *************************************
 
 class Buggy:
@@ -406,5 +400,9 @@ class Buggy:
                 
 # *************************** END OF CLASS *************************************
 
+# Running the Buggy from IDLE
+if __name__ == '__main__':
 
+    # Instantiate buggy
+    buggy = Buggy()
 

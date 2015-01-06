@@ -16,14 +16,15 @@
 #
 # ***************************************************************
 
+import sys
 import cv2
 import cv2.cv as cv
 import time
 import numpy as np
 from matplotlib import pyplot as plt
-from buggy import Buggy
 from scipy import ndimage
-import sys
+sys.path.append('../sdk')
+from buggy import Buggy
 
 # ********************** VARIABLES **********************
 #
@@ -36,15 +37,15 @@ MAX_RECOGNISING_COUNT = 20 # The higher this is, the more accurate and slower it
 MAX_TURN_STEPS = 1 # How many times the buggy continues turning after a sign
 
 # The file location of the picture of the CROSS (X) to make the Buggy STOP
-PATH_CROSS = 'C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\Template_Matching\\Photoshop\\cross_paint.png'
+PATH_CROSS = '..\\doc\\symbols\\cross_simple.png'
 # The number of arrow images (usually an odd number - left, right and forward)
 NUMBER_OF_ARROWS = 13
 # The path to the directory that contains the arrows for turning the Buggy (must be labelled from 00)
-PATH_ARROW_FOLDER = 'C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\Template_Matching\\Arrows\\15_step\\'
+PATH_ARROW_FOLDER = '..\\doc\\symbols\\15_step\\'
 
 if DETECT_FLOOR: # Image and Object Points to warp the camera perspective for detecting signs on the floor
-    PATH_IMAGE_POINTS = 'C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\imgPts.npy'
-    PATH_OBJECT_POINTS = 'C:\\Users\\Joey\\Documents\\Work\\Year_3\\Internship\\objPts.npy'
+    PATH_IMAGE_POINTS = '..\\doc\\imagePoints\\imgPts.npy'
+    PATH_OBJECT_POINTS = '..\\doc\\imagePoints\\objPts.npy'
 
 CHROMA_RED_THRESHOLD = 130 # The threshold to use in binary threshing of the Chroma Red Channel (default 135)
 

@@ -46,6 +46,11 @@ Images of arrows to use with pathFollower.py have been included in the directory
 
 - doc\symbols\
 
+Image and Object points for the perspective transformation of the Buggy's camera are included in the directory as follows:
+
+- doc\symbols\imagePoints\
+	- labelled as imgPts.npy and objPts.npy respectively 
+
 *** Contact ***
 
 For further information or inquiries, please contact Joey Green at:
